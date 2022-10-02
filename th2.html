@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+       <meta charset="utf-8">
+       <title>Thématique 2</title>
+       <link href="styleIndex.css" rel="stylesheet" type="text/css"/>
+        <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+        <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Merriweather:300,300i,400,400i,700,700i,900,900i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+        <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+        </script>
+        <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   </head>
+
+   <body>
+     <header style="position: relative; background: rgb(47, 79, 79);margin-top: -20px; height:120px;">
+        <div id="nav">
+            <div id="logo">
+                <a href="index.html"><img id="logo" src="images/whiteLogo.png" alt="logo"/></a>
+            </div>
+            <nav id="menu">
+                <div id="nav-container">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Vous êtes?</a>
+                            <ul>
+                                <li><a href="thEt.html">Etudiant</a></li>
+                                <li><a href="thCh.html">Chercheur</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Thématiques</a>
+                            <ul>
+                                <li><a href="th1.html">Thematique 1</a></li>
+                                <li><a href="th2.html">Thematique 2</a></li>
+                                <li><a href="th3.html">Thematique 3</a></li>
+                                <li><a href="th4.html">Thematique 4</a></li>
+                                <li><a href="th5.html">Thematique 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section1">
+        <div id="topAnchor"></div>
+       <div id="google_translate_element" style="background-color: transparent; float: left;"></div>
+    
+        <h1 id="title">Thématique 2</h1>
+        <p class="section1">Les avantages selon les diplômes</p>
+    </section>
+
+    <section id="section3" style="height: 4500px;">
+        <h2 id="section3-h2">Thématique 2</h2>
+        <div class="layout">
+
+            <div id="div_table_1" style="margin: 0 auto; font-family: 'Open Sans', sans-serif; width: 80vw; text-align: center;">
+                <h3>Nombre de domaine de travail possible selon les diplômes entre 2011 et 2018</h3>
+                <table border="1" style="margin:1vw auto; width:60vw">
+                   <tr>
+                        <th>Diplôme</th>
+                        <th>Situation</th>
+                        <th>2013</th>
+                        <th>2014</th>
+                        <th>2015</th>
+                        <th>2016</th>
+                        <th>2017</th>
+                        <th>2018</th>
+                    </tr>
+                    <tr>
+                        <td>MASTER ENS</td>
+                        <td>18 mois après le diplôme</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER LMD</td>
+                        <td>18 mois après le diplôme</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER ENS</td>
+                        <td>30 mois après le diplôme</td>
+                        <td>20</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER LMD</td>
+                        <td>30 mois après le diplôme</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="chart-container" style="width: 80vw; margin: 3vw auto;">
+                <canvas id="chart1"></canvas>                    
+                <p style="text-align: left; margin-left: 10vw; margin-right: 10vw;"><strong>Commentaire : </strong>Comme nous pouvons le voir, les masters ENS et LMD (30 mois après le diplôme) sont les diplômes qui offrent des emplois dans le plus de domaines : un vingtaine et plus encore, cet effectif à nettement augmenté à partir de 2016. En revanche, le master LMD (18 mois après avoir obtenu le diplôme) est le master qui offre un emploi dans le moins de domaine possible (entre 5 et 10 domaines distincts seulement) entre 2013 et 2018.</p>
+            </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+                <script>
+                    var data = {
+                        labels: ["2013","2014","2015","2016","2017","2018"],
+                        datasets: [
+                            {label: "MASTER ENS (18 mois après le diplôme)",
+                            backgroundColor: "rgba(255,99,132,0.2)",
+                            borderColor: "rgba(255,99,132,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(255,99,132,0.4)",
+                            hoverBorderColor: "rgba(255,99,132,1)",
+                            data: [7,7,7,7,9,10],
+                            },
+                            {label: "MASTER LMD (18 mois après le diplôme)",
+                            backgroundColor: "rgba(201,203,207,0.2)",
+                            borderColor: "rgba(201,203,207,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(201,203,207,0.4)",
+                            hoverBorderColor: "rgba(201,203,207,1)",
+                            data: [7,7,7,7,9,10],
+                            },
+                            {label: "MASTER ENS (30 mois après le diplôme)",
+                            backgroundColor: "rgba(100,149,237,0.2)",
+                            borderColor: "rgba(100,149,237,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(100,149,237,0.4)",
+                            hoverBorderColor: "rgba(100,149,237,1)",
+                            data: [20,19,20,20,23,24]
+                            },
+                            {label: "MASTER LMD (30 mois après le diplôme)",
+                            backgroundColor: "rgba(110,139,61,0.2)",
+                            borderColor: "rgba(110,139,61,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(110,139,61,0.4)",
+                            hoverBorderColor: "rgba(110,139,61,1)",
+                            data: [20,20,20,20,23,24]
+                            },
+                        ]
+                    };
+
+                    var options = {
+                        maintainAspectRatio: true,
+                        responsive: true,
+                        legend: {
+                            display: true,
+                            labels: {
+                                fontColor: "#F8F8FF"
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Le taux de chômage national entre 2011 et 2018',
+                            fontColor:'#F8F8FF',
+                            fontFamily:'Open Sans',
+                            fontSize: 30
+                        },
+                        scales: {
+                            yAxes: [{
+                                stacked: false,
+                                ticks:{
+                                    suggestedMin: 7,
+                                    suggestedMax: 10.5,
+                                },
+                                gridLines: {
+                                    display: true,
+                                    color: "rgba(255,99,132,0.2)"
+                                }
+                            }],
+                            xAxes: [{
+                                gridLines: {
+                                    display: false
+                                }
+                            }]
+                        }
+                    };
+
+                    Chart.defaults.global.defaultFontColor = 'rgb(255,255,255)';
+                    Chart.Line('chart1', {
+                        options: options,
+                        data: data
+                    });
+                </script>
+
+                <div id="div_table_2" style="margin: 0 auto; font-family: 'Open Sans', sans-serif; width: 80vw; text-align: center;">
+                <h3>Repartition des salaires selon domaine (18 mois après le diplôme / 30 mois après le diplôme)</h3>
+                <table border="1" style="margin:1vw auto; width:60vw">
+                    <tr>
+                        <td>Diplôme</td>
+                        <td>Situation</td>
+                        <td>2011 </td>
+                        <td>2012 </td>
+                        <td>2013 </td>
+                        <td>2014 </td>
+                        <td>2015 </td>
+                        <td>2016 </td>
+                        <td>2017 </td>
+                        <td>2018 </td>
+                    </tr>
+                    <tr>
+                        <td>MASTER ENS</td>
+                        <td>18 mois après le diplôme</td>
+                        <td></td>
+                        <td>26500</td>
+                        <td>26500</td>
+                        <td>26500</td>
+                        <td>27400</td>
+                        <td>27900</td>
+                        <td>27100</td>
+                        <td>26700</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER LMD</td>
+                        <td>18 mois après le diplôme</td>
+                        <td></td>
+                        <td>27900</td>
+                        <td>28100</td>
+                        <td>28100</td>
+                        <td>28100</td>
+                        <td>29000</td>
+                        <td>30000</td>
+                        <td>30400</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER ENS</td>
+                        <td>30 mois après le diplôme</td>
+                        <td>26500</td>
+                        <td>26600</td>
+                        <td>26900</td>
+                        <td>27800</td>
+                        <td>28200</td>
+                        <td>28100</td>
+                        <td>27900</td>
+                        <td>27300</td>
+                    </tr>
+                    <tr>
+                        <td>MASTER LMD</td>
+                        <td>30 mois après le diplôme</td>
+                        <td>29700</td>
+                        <td>29600</td>
+                        <td>29600</td>
+                        <td>30100</td>
+                        <td>30900</td>
+                        <td>31200</td>
+                        <td>32400</td>
+                        <td>32400</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="chart-container" style="width: 80vw; margin: 3vw auto;">
+                <canvas id="chart2"></canvas>                    
+
+                <p style="text-align: left; margin-left: 10vw; margin-right: 10vw;"><strong>Commentaire : </strong>Le master LMD (30 mois après avoir obtenu le diplôme) en 2017 et 2018, est le diplôme dont le niveau de salaire brut annuel est le plus élevé avec un taux d’environ 32 000 euros. En revanche, le master ENS (18 mois après le diplôme) est le diplôme dont le salaire annuel estimé est le plus faible toutes années confondues : il dépasse à peine la barre des 25 000 euros.</p>
+            </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+                <script>
+                    var data = {
+                        labels: ["2012","2013","2014","2015","2016","2017","2018"],
+                        datasets: [
+                            {label: "MASTER ENS (18 mois après le diplôme)",
+                            backgroundColor: "rgba(255,99,132,0.2)",
+                            borderColor: "rgba(255,99,132,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(255,99,132,0.4)",
+                            hoverBorderColor: "rgba(255,99,132,1)",
+                            data: [, 26500, 26500, 26500, 27400, 27900, 27100, 26700],
+                            },
+                            {label: "MASTER LMD (18 mois après le diplôme)",
+                            backgroundColor: "rgba(201,203,207,0.2)",
+                            borderColor: "rgba(201,203,207,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(201,203,207,0.4)",
+                            hoverBorderColor: "rgba(201,203,207,1)",
+                            data: [, 27900, 28100, 28100, 28100, 29000, 30000, 30400]
+                            },
+                            {label: "MASTER ENS (30 mois après le diplôme)",
+                            backgroundColor: "rgba(100,149,237,0.2)",
+                            borderColor: "rgba(100,149,237,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(100,149,237,0.4)",
+                            hoverBorderColor: "rgba(100,149,237,1)",
+                            data: [26500, 26600, 26900, 27800, 28200, 28100, 27900, 27300]
+                            },
+                            {label: "MASTER LMD (30 mois après le diplôme)",
+                            backgroundColor: "rgba(110,139,61,0.2)",
+                            borderColor: "rgba(110,139,61,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(110,139,61,0.4)",
+                            hoverBorderColor: "rgba(110,139,61,1)",
+                            data: [29700, 29600, 30100, 30900, 31200, 32400, 32400]
+                            }
+                        ]
+                    };
+
+                    var options = {
+                        maintainAspectRatio: true,
+                        responsive: true,
+                        legend: {
+                            display: true,
+                            labels: {
+                                fontColor: "#F8F8FF"
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Repartition des salaires selon domaine (18 mois après le diplôme)',
+                            fontColor:'#F8F8FF',
+                            fontFamily:'Open Sans',
+                            fontSize: 30
+                        },
+                        scales: {
+                            yAxes: [{
+                                stacked: false,
+                                ticks:{
+                                    suggestedMin: 0,
+                                    suggestedMax: 35000,
+                                },
+                                gridLines: {
+                                    display: true,
+                                    color: "rgba(255,99,132,0.2)"
+                                }
+                            }],
+                            xAxes: [{
+                                gridLines: {
+                                    display: false
+                                }
+                            }]
+                        }
+                    };
+
+                    Chart.defaults.global.defaultFontColor = 'rgb(255,255,255)';
+                    Chart.Bar('chart2', {
+                        options: options,
+                        data: data
+                    });
+                </script>
+
+                <div id="div_table_3" style="margin: 0 auto; font-family: 'Open Sans', sans-serif; width: 80vw; text-align: center;">
+                <h3>Environnement de travail selon les diplômes en 2018</h3>
+                <table border="1" style="margin:1vw auto; width:60vw">
+                       <tr>
+                            <th>Diplôme</th>
+                            <th>Situation</th>
+                            <th>%La fonction publique (d'etat, territoriale ou hospitalière)</th>
+                            <th>%Une entreprise privée</th>
+                            <th>%Une entreprise publique</th>
+                            <th>%Une association</th>
+                            <th>%Une personne exerçant une profession libérale ou un indépendant</th>
+                            <th>%Organisation internationale ou une institution de l'Union européenne</th>
+                            <th>%Société d'économie mixte</th>
+                            <th>%Un particulier</th>
+                        </tr>
+                        <tr>
+                            <td>MASTER ENS</td>
+                            <td>30 mois après le diplôme</td>
+                            <td>5%</td>
+                            <td>92%</td>
+                            <td>1%</td>
+                            <td>2%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td>MASTER LMD</td>
+                            <td>30 mois après le diplôme</td>
+                            <td>69%</td>
+                            <td>18%</td>
+                            <td>3%</td>
+                            <td>9%</td>
+                            <td>1%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                        </tr>
+                </table>
+            </div>
+
+                <div class="chart-container" style="width: 80vw; margin: 3vw auto;">
+                <canvas id="chart3"></canvas>                    
+                <p style="text-align: left; margin-left: 10vw; margin-right: 10vw;"><strong>Commentaire : </strong>En 2018, 69% de diplômés de master LMD (30 mois après le diplôme), sont dans la fonction publique. Cet environnement de travail regroupe plusieurs métiers. Quant aux diplômés de master ENS, 92% d’entre eux se trouvent dans une entreprise privée. Ainsi, comme nous pouvons le voir, l'environnement de travail diffère selon chaque diplôme.</p>
+            </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+                <script>
+                    var data = {
+                        labels: ["MASTER ENS","MASTER LMD"],
+                        datasets: [
+                            {label: "%La fonction publique (d'etat, territoriale ou hospitalière)",
+                            backgroundColor: "rgba(255,99,132,0.2)",
+                            borderColor: "rgba(255,99,132,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(255,99,132,0.4)",
+                            hoverBorderColor: "rgba(255,99,132,1)",
+                            data: [5,69],
+                            },
+                            {label: "%Une entreprise privée",
+                            backgroundColor: "rgba(201,203,207,0.2)",
+                            borderColor: "rgba(201,203,207,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(201,203,207,0.4)",
+                            hoverBorderColor: "rgba(201,203,207,1)",
+                            data: [92,18]
+                            },
+                            {label: "%Une entreprise publique",
+                            backgroundColor: "rgba(100,149,237,0.2)",
+                            borderColor: "rgba(100,149,237,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(100,149,237,0.4)",
+                            hoverBorderColor: "rgba(100,149,237,1)",
+                            data: [1,3]
+                            },
+                            {label: "%Une association",
+                            backgroundColor: "rgba(110,139,61,0.2)",
+                            borderColor: "rgba(110,139,61,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(110,139,61,0.4)",
+                            hoverBorderColor: "rgba(110,139,61,1)",
+                            data: [2,9]
+                            },
+                            {label: "%Une personne exerçant une profession libérale ou un indépendant",
+                            backgroundColor: "rgba(147,112,219,0.2)",
+                            borderColor: "rgba(147,112,219,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(147,112,219,0.4)",
+                            hoverBorderColor: "rgba(147,112,219,1)",
+                            data: [0,1]
+                            },
+                            {label: "%Organisation internationale ou une institution de l'Union européenne",
+                            backgroundColor: "rgba(70,130,180,0.2)",
+                            borderColor: "rgba(70,130,180,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(70,130,180,0.4)",
+                            hoverBorderColor: "rgba(70,130,180,1)",
+                            data: [0,0],
+                            },
+                            {label: "%Société d'économie mixte",
+                            backgroundColor: "rgba(201,203,207,0.2)",
+                            borderColor: "rgba(201,203,207,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(201,203,207,0.4)",
+                            hoverBorderColor: "rgba(201,203,207,1)",
+                            data: [0,0]
+                            },
+                            {label: "%Un particulier",
+                            backgroundColor: "rgba(0,0,128,0.2)",
+                            borderColor: "rgba(0,0,128,1)",
+                            borderWidth: 2,
+                            hoverBackgroundColor: "rgba(0,0,128,0.4)",
+                            hoverBorderColor: "rgba(0,0,128,1)",
+                            data: [0,0]
+                            }
+                        ]
+                    };
+
+                    var options = {
+                        maintainAspectRatio: true,
+                        responsive: true,
+                        legend: {
+                            display: true,
+                            labels: {
+                                fontColor: "#F8F8FF"
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: '% des types de contrats selon les domaines en 2018 (18 mois après le diplôme)',
+                            fontColor:'#F8F8FF',
+                            fontFamily:'Open Sans',
+                            fontSize: 30
+                        },
+                        scales: {
+                            yAxes: [{
+                                stacked: true,
+                                ticks:{
+                                    suggestedMin: 0,
+                                    suggestedMax: 100,
+                                },
+                                gridLines: {
+                                    display: true,
+                                    color: "rgba(255,99,132,0.2)"
+                                }
+                            }],
+                            xAxes: [{
+                                gridLines: {
+                                    display: false
+                                }
+                            }]
+                        }
+                    };
+
+                    Chart.defaults.global.defaultFontColor = 'rgb(255,255,255)';
+                    Chart.Bar('chart3', {
+                        options: options,
+                        data: data
+                    });
+                </script>
+
+                <p style="text-align: left; margin-left: 8vw; margin-right: 8vw;"><strong>CONSEIL GÉNÉRAL : </strong>En 2018, le master LMD est le diplôme qui offre un niveau de salaire le plus élevé comparé au master ENS, 30 mois après l’avoir obtenu. C’est aussi un diplôme qui permet d’obtenir un emploi dans divers et nombreux domaines et dans un environnement plutôt centré sur la fonction publique.</p>
+
+                <div>
+                    <table class="form" style="margin: 3vw auto; padding: 1px;border-collapse:separate; border-spacing:10px;"> 
+                        <tr> 
+                             <td><label class="titre" for="id_nom">Nom :</label> </td>
+                             <td><input type="text" name="nom" id="id_nom" placeholder="Entrez votre nom"></td>
+                             </tr>
+                        <tr>
+                             <td><label class="titre" for="id_prenom">Prénom :</label></td>
+                             <td><input type="text" name="prenom" id="id_prenom" placeholder="Entrez votre prenom"/></td>
+                        </tr>
+                        <tr>
+                              <td><label class="titre"  for="id_mail">Adresse e-mail :</label></td>
+                             <td><input type="email" name="mail" id="id_mail" placeholder="Ex: prenom.nom@fai.com"/></td>
+                        </tr>
+                        <tr>
+                                <td><label for="commentaires">Commentaires : </label></td> 
+                                <td><textarea name="commentaires" id="commentaires" placeholder="Entrez votre commentaire"></textarea></td>
+                        </tr>
+                        <tr>  
+                            <td><input type ="submit" value="Envoi" onclick="return confirm('Merci pour votre commentaire, votre avis est crucial pour nous!')"></td>
+                        </tr>     
+                    </table>
+                </div>
+
+                <a href="#topAnchor" style="margin-left:65vw; margin-top: 5vw ;">BACK TO TOP</a>
+                <a href="th1.html" style="margin-left:65vw; margin-top: 5vw ;">PREVIOUS PAGE</a>
+                <a href="th3.html" style="margin-left:65vw; margin-top: 5vw ;">NEXT PAGE</a>
+
+            
+
+            
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-container">
+            <img src="images/whiteLogo.png" id="logoPetit">
+            <p class="footer">Copyright ©2022 | Yongkang Zou & Sarah Brahmi</p>
+            <div id="social">
+                <a href="https://www.facebook.com"><img src="images/facebook.png" class="icon3"></a>
+                <a href="https://www.twitter.com"><img src="images/twitter.png" class="icon3"></a>
+                <a href="https://www.instagram.com"><img src="images/insta.png" class="icon3"></a>
+                <a href="https://www.linkedin.com"><img src="images/linkedin.png" class="icon3"></a>
+            </div>
+        </div>
+    </footer>
+
+   </body>
+
+</html>
